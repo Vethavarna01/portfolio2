@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects and Internships</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #ffcc00;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 10px;
+        }
+        .project, .internship {
+            margin-bottom: 20px;
+        }
+        .project h3, .internship h3 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+        .project p, .internship p {
+            color: #ddd;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Projects and Internships</h1>
+            <nav>
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#internships">Internships</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section id="projects" class="content">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Classification of Iris Flower Using Ensemble-Based Methods</h3>
+                <p><strong>Description:</strong> Developed a classification model for the Iris flower dataset using ensemble-based methods such as Random Forest and Gradient Boosting to achieve high accuracy and robustness in predictions.</p>
+                <p><strong>Technologies:</strong> Python, Scikit-learn, Pandas, NumPy</p>
+            </div>
+            <div class="project">
+                <h3>IoT-Based Smart Attendance Monitoring System</h3>
+                <p><strong>Description:</strong> Created an IoT-based system for monitoring and managing attendance using sensors and real-time data processing to automate and streamline attendance tracking.</p>
+                <p><strong>Technologies:</strong> Python, Arduino, IoT, Streamlit, SQL</p>
+            </div>
+            <div class="project">
+                <h3>Market Basket Analysis Using Machine Learning</h3>
+                <p><strong>Description:</strong> Implemented market basket analysis to understand customer purchasing patterns using association rule mining and machine learning techniques to enhance sales strategies.</p>
+                <p><strong>Technologies:</strong> Python, Scikit-learn, Pandas, NumPy, Apriori Algorithm</p>
+            </div>
+        </section>
+        
+        <section id="internships" class="content">
+            <h2>Internships</h2>
+            <div class="internship">
+                <h3>Python-Django Intern at Pinesphere</h3>
+                <p><strong>Description:</strong> Developed web applications using Python and Django, focusing on building scalable and secure solutions with robust backend functionalities and interactive front-end features.</p>
+                <p><strong>Duration:</strong> Summer 2024</p>
+            </div>
+            <div class="internship">
+                <h3>ML Intern at Codsoft</h3>
+                <p><strong>Description:</strong> Worked on developing machine learning models for various applications, contributing to the development of advanced algorithms and real-time data processing.</p>
+                <p><strong>Duration:</strong> Winter 2024</p>
+            </div>
+            <div class="internship">
+                <h3>DataScience Intern at Codsoft</h3>
+                <p><strong>Description:</strong> Assisted in building and deploying Data Science solutions for data analysis and predictive analytics, enhancing data-driven decision-making processes.</p>
+                <p><strong>Duration:</strong> Ongoing</p>
+            </div>
+        </section>
+    </div>
+
+    
+    
+</body>
+</html>
